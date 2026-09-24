@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Spacedust">
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#14120F" stroke-width="3"/>
+  <path d="M32 3v6M32 55v6M3 32h6M55 32h6" stroke="#14120F" stroke-width="3"/>
+  <circle cx="32" cy="32" r="11" fill="#14120F"/>
+  <circle cx="51.9" cy="15.3" r="5.5" fill="#FF4F00"/>
+</svg>

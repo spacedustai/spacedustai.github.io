@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spacedust — Games Made with AI</title>
+  <meta name="description" content="Spacedust LLC is a game studio that uses AI across the entire development pipeline — code generation, art and asset generation, audio, and automated playtesting.">
+  <meta name="theme-color" content="#F3EEE3">
+  <meta property="og:title" content="Spacedust — Games Made with AI">
+  <meta property="og:description" content="A game studio using AI to generate code, art, audio, and content — from idea to playable in days.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://spacedustai.com/">
+  <link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Spacedust home">
+        <svg class="brand-mark" viewBox="0 0 64 64" width="28" height="28" aria-hidden="true" focusable="false">
+          <circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M32 3v6M32 55v6M3 32h6M55 32h6" stroke="currentColor" stroke-width="2.5"/>
+          <circle cx="32" cy="32" r="11" fill="currentColor"/>
+          <circle cx="51.9" cy="15.3" r="5.5" fill="#FF4F00"/>
+        </svg>
+        <span class="brand-word">Spacedust</span><span class="brand-ai">AI</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#studio"><span class="nav-num" aria-hidden="true">§01</span>Build</a></li>
+        <li><a href="#approach"><span class="nav-num" aria-hidden="true">§02</span>Process</a></li>
+        <li><a class="nav-cta" href="#contact">Contact <span aria-hidden="true">→</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Spacedust LLC · Game Studio · Washington, USA</p>
+          <h1>Idea in. <em>Playable</em> out.</h1>
+          <p class="lede">Spacedust puts AI to work at every stage of production &mdash; code, art, audio, worlds &mdash; so a small crew ships what used to take a hangar full of people.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#studio">How we build</a>
+            <a class="btn btn-outline" href="#contact">Say hello</a>
+          </div>
+        </div>
+
+        <figure class="fig hero-figure" aria-labelledby="fig1-cap">
+          <div class="fig-frame" id="fig1" tabindex="0">
+            <canvas id="orrery" role="img" aria-label="Technical drawing of an orrery: planets on dashed orbits around a sun, one highlighted in orange, beside a halftone-shaded moon."></canvas>
+            <div class="fig-readout" aria-hidden="true">
+              <span id="ro-coords">RA 00h 00m · DEC +00°</span>
+              <span id="ro-probes">Probes 00</span>
+            </div>
+            <p class="fig-hint" aria-hidden="true"><span class="hint-desktop">Move to bend orbits · Click to launch a probe</span><span class="hint-touch">Tap to launch a probe</span></p>
+          </div>
+          <figcaption class="fig-caption" id="fig1-cap"><span><span class="fig-label">Fig. 1</span> &mdash; Orrery</span><span class="fig-meta">Not to scale</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="studio">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-num" aria-hidden="true">§01</p>
+          <div>
+            <p class="eyebrow">How we build</p>
+            <h2>An AI pipeline, <em>end to end</em>.</h2>
+            <p class="section-sub">We put frontier AI models to work at every stage of game development &mdash; then apply human taste to everything they touch.</p>
+          </div>
+        </header>
+        <hr class="rule rule-strong reveal-rule" aria-hidden="true">
+        <ol class="spec" aria-label="Production systems">
+          <li class="spec-head" aria-hidden="true"><span>No.</span><span>System</span><span>Function</span><span>Input → Output</span></li>
+          <li class="spec-row reveal">
+            <span class="spec-num" aria-hidden="true">01</span>
+            <h3 class="spec-name">Code Generation</h3>
+            <p class="spec-desc">AI agents write, refactor, and test gameplay systems, tools, and shaders &mdash; turning design docs into playable builds in hours, not weeks.</p>
+            <p class="spec-io"><span class="io-in">Design doc</span><span class="io-arrow" aria-hidden="true">→</span><span class="io-out">Playable build</span></p>
+          </li>
+          <li class="spec-row reveal">
+            <span class="spec-num" aria-hidden="true">02</span>
+            <h3 class="spec-name">Art &amp; Asset Generation</h3>
+            <p class="spec-desc">Concept art, sprites, textures, 3D models, and UI generated at scale, then art-directed into a cohesive, distinctive visual style.</p>
+            <p class="spec-io"><span class="io-in">Prompt + style guide</span><span class="io-arrow" aria-hidden="true">→</span><span class="io-out">Sprites · textures · 3D</span></p>
+          </li>
+          <li class="spec-row reveal">
+            <span class="spec-num" aria-hidden="true">03</span>
+            <h3 class="spec-name">Audio &amp; Music</h3>
+            <p class="spec-desc">Sound effects, ambience, and soundtracks generated and shaped to fit every moment, from the smallest click to the final boss.</p>
+            <p class="spec-io"><span class="io-in">Cue sheet</span><span class="io-arrow" aria-hidden="true">→</span><span class="io-out">SFX + score</span></p>
+          </li>
+          <li class="spec-row reveal">
+            <span class="spec-num" aria-hidden="true">04</span>
+            <h3 class="spec-name">Worlds &amp; Content</h3>
+            <p class="spec-desc">Levels, maps, items, quests, and dialogue produced in volume, then curated and tuned by designers until every piece earns its place.</p>
+            <p class="spec-io"><span class="io-in">Seed</span><span class="io-arrow" aria-hidden="true">→</span><span class="io-out">Levels · quests · dialogue</span></p>
+          </li>
+          <li class="spec-row reveal">
+            <span class="spec-num" aria-hidden="true">05</span>
+            <h3 class="spec-name">Automated Playtesting</h3>
+            <p class="spec-desc">AI agents play thousands of sessions to surface bugs, balance issues, and dead ends long before a real player ever hits them.</p>
+            <p class="spec-io"><span class="io-in">Build</span><span class="io-arrow" aria-hidden="true">→</span><span class="io-out">10K sessions / night</span></p>
+          </li>
+          <li class="spec-row reveal">
+            <span class="spec-num" aria-hidden="true">06</span>
+            <h3 class="spec-name">Rapid Prototyping</h3>
+            <p class="spec-desc">Ideas become playable prototypes in days, so we can test more concepts and double down only on the ones that are genuinely fun.</p>
+            <p class="spec-io"><span class="io-in">Concept</span><span class="io-arrow" aria-hidden="true">→</span><span class="io-out">Prototype in days</span></p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-panel" id="approach">
+      <div class="container approach-grid">
+        <div class="approach-aside">
+          <header class="section-head reveal">
+            <p class="section-num" aria-hidden="true">§02</p>
+            <div>
+              <p class="eyebrow">Process</p>
+              <h2>Human vision. <em>AI velocity.</em></h2>
+              <p class="section-sub">AI does the heavy lifting; people make the calls. Here's how a Spacedust game comes together.</p>
+            </div>
+          </header>
+          <hr class="rule rule-strong reveal-rule" aria-hidden="true">
+          <div class="params reveal">
+            <p class="params-title mono">Mission parameters</p>
+            <dl class="params-list">
+              <div><dt>Crew</dt><dd>Senior</dd></div>
+              <div><dt>Tooling</dt><dd>Frontier models + custom agents</dd></div>
+              <div><dt>Cadence</dt><dd>Prototype in days</dd></div>
+            </dl>
+          </div>
+        </div>
+        <ol class="timeline">
+          <li class="tl-item reveal">
+            <span class="tl-num" aria-hidden="true">01</span>
+            <span class="tl-node" aria-hidden="true"></span>
+            <div class="tl-body">
+              <h3>Dream it</h3>
+              <p>Every game starts with a human idea &mdash; a mechanic, a mood, a question worth playing. AI can&rsquo;t supply the spark, so we do.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num" aria-hidden="true">02</span>
+            <span class="tl-node" aria-hidden="true"></span>
+            <div class="tl-body">
+              <h3>Generate it</h3>
+              <p>AI agents write code and generate art, audio, and content in parallel, turning a concept into a playable build at remarkable speed.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num" aria-hidden="true">03</span>
+            <span class="tl-node" aria-hidden="true"></span>
+            <div class="tl-body">
+              <h3>Direct it</h3>
+              <p>Designers and artists review, refine, and art-direct every output, so the finished game feels crafted, not generated.</p>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <span class="tl-num" aria-hidden="true">04</span>
+            <span class="tl-node" aria-hidden="true"></span>
+            <div class="tl-body">
+              <h3>Ship it</h3>
+              <p>Automated testing and tight iteration loops let us polish and ship at a pace traditional pipelines simply can&rsquo;t match.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section night contact" id="contact">
+      <div class="container reveal">
+        <header class="section-head">
+          <p class="section-num" aria-hidden="true">§03</p>
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let's build the <em>future of game making</em>.</h2>
+            <p class="section-sub">Partnerships, publishing, press, or just want to talk shop about AI-driven game development &mdash; our airlock is open.</p>
+            <a class="btn btn-outline btn-large btn-email" href="mailto:support@spacedustai.com">support@spacedustai.com</a>
+          </div>
+        </header>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer night">
+    <div class="container footer-inner">
+      <a class="brand" href="#top" aria-label="Back to top">
+        <svg class="brand-mark" viewBox="0 0 64 64" width="24" height="24" aria-hidden="true" focusable="false">
+          <circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M32 3v6M32 55v6M3 32h6M55 32h6" stroke="currentColor" stroke-width="2.5"/>
+          <circle cx="32" cy="32" r="11" fill="currentColor"/>
+          <circle cx="51.9" cy="15.3" r="5.5" fill="#FF4F00"/>
+        </svg>
+        <span class="brand-word">Spacedust</span><span class="brand-ai">AI</span>
+      </a>
+      <nav aria-label="Legal">
+        <ul class="footer-links">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="mailto:support@spacedustai.com">Contact</a></li>
+        </ul>
+      </nav>
+      <p class="copyright">&copy; <span data-year>2026</span> Spacedust LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
